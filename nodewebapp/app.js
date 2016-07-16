@@ -4,9 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+// mongo db:
 var db = require('./model/db');
 var routes = require('./routes/index');
 var users = require('./routes/users');
+// added for mongodb:
+var db = require('./model/db');
+var blob = require('./model/blobs');
 
 var app = express();
 
