@@ -6,7 +6,8 @@ var express = require('express'),
     bodyParser = require('body-parser');
 
 var db = require('./model/db'),
-    blob = require('./model/blobs');
+    // had a typo making "blobs.js" into bolbs.js
+    blob = require('./model/bolbs');
 
 var routes = require('./routes/index'),
     blobs = require('./routes/blobs');
