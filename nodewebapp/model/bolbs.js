@@ -1,3 +1,4 @@
+// this file name is a typo
 var mongoose = require('mongoose');  
 var blobSchema = new mongoose.Schema({  
   name: String,
